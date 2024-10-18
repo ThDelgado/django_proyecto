@@ -1,0 +1,9 @@
+makemigrations -> genera las migraciones en la db pero no las ejecuta
+migrate -> ejecuta las migraciones en la db
+python manage.py shell -> abre consola de python en django
+python manage.py dbshell ->abre un shell de base de datos para la base de datos configurada
+python manage.py showmigrations -> Muestra el estado de las migraciones 
+python manage.py dumpdata ->  exporta datos de tu base de datos en formato JSON 
+python manage.py test -> Ejecuta las pruebas definidas 
+python manage.py testserver -> Inicia un servidor de desarrollo que permite ejecutar pruebas en una base de datos de prueba
+python manage.py diffsettin -> Muestra las diferencias entre la configuración actual y la configuración predeterminada de Django
